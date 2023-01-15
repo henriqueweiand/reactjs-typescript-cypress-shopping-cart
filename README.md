@@ -8,47 +8,47 @@ Website preview https://test-front-boticario.netlify.app/
 
 ## Frontend Test
 
-Faça um fork deste repositório e finalizar o teste, submeta um pull request para o repositório que nosso time será notificado.
+Fork this repository and finish testing, submit a pull request to the repository and our team will be notified.
 
-O teste consiste em um checkout simples contendo 3 passos (carrinho, pagamento e sucesso) [Veja o Layout](https://projects.invisionapp.com/prototype/font-test-cji0j0khf005c1t0132358e8k)
+The test consists of a simple checkout containing 3 steps (cart, payment and success) [See the Layout](https://projects.invisionapp.com/prototype/font-test-cji0j0khf005c1t0132358e8k)
 
-**Faça quando quiser/puder (madrugada, fim de semana, etc)**
+**Do it whenever you want/can (early morning, weekend, etc.)**
 
-### Requerimentos
+### Requirements
 
-- Pixel perfect ([nesse link](https://projects.invisionapp.com/prototype/font-test-cji0j0khf005c1t0132358e8k), você pode inspecionar para ver espaçamentos, fonte, tamanho, etc)
-- A aplicação precisa ser responsiva, utilizando o conceito de mobile-first. Use sua imaginação para entregar uma experiência boa no desktop.
-- Renderize cada passo em uma URL única (lib de rotas).
+- Pixel perfect ([nesse link](https://projects.invisionapp.com/prototype/font-test-cji0j0khf005c1t0132358e8k), you can inspect for spacing, font, size, etc)
+- The application needs to be responsive, using the concept of mobile-first. Use your imagination to deliver a great desktop experience.
+- Render each step to a unique URL (route lib).
 
-### Passo 1 - Carrinho:
+### Step 1 - Cart:
 
-- Consuma o [esse endpoint](http://www.mocky.io/v2/5b15c4923100004a006f3c07) e liste os itens do carrinho, bem como o resumo do carrinho;
-- Persista o conteúdo do JSON para ser usado nas próximas etapas;
+- Consume the [this endpoint](http://www.mocky.io/v2/5b15c4923100004a006f3c07) and list the cart items as well as the cart summary;
+- Persist the JSON content to be used in the next steps;
 
-### Passo 2 - Pagamento:
+### Step 2 - Payment:
 
-- Exiba um form com campos de cartão de crédito com validação em cada campo;
-- Habilite o botão de Finalizar Pedido apenas se o form esteja válido;
+- Display a form with credit card fields with validation in each field;
+- Enable the Finish Order button only if the form is valid;
 
-### Passo 3 - Sucesso:
+### Step 3 - Success:
 
-- Todo o conteúdo deverá ser exibido a partir dos dados persistidos;
+- All content must be displayed from the persisted data;
 
-### O que vamos avaliar:
+### What we will evaluate:
 
-- Organização do código;
-- Mensagens (em inglês) e mudanças nos commits;
-- Composição/reutilização de componentes;
-- Testes unitários;
-- O motivo de ter escolhido cada tech da stack;
-- Como rodar sua aplicação ;)
+- Organization of the code;
+- Messages (in English) and changes in commits;
+- Composition/reuse of components;
+- Unitary tests;
+- The reason for choosing each tech in the stack;
+- How to run your application ;)
 
-### Diferenciais:
+### Differentials:
 
-- Split bundle por rota (cada step ter um bundle separado para otimizar a performance);
+- Split bundle per route (each step will have a separate bundle to optimize performance);
 - CSS in JS;
 - React;
 
-### Fim:
+### And:
 
-Ao finalizar o teste, submeta um pull request para o repositório que nosso time será notificado. Se tiver alguma observação, escreva no pull request.
+When the test is finished, submit a pull request to the repository and our team will be notified. If you have any observations, write them in the pull request.
